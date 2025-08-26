@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayZ XML Tool for Snafu & FOG Mods</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Darker gray */
+        }
+        .section-card {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+        }
+        .btn {
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-primary {
+            background-color: #4f46e5;
+        }
+        .btn-primary:hover {
+            background-color: #4338ca;
+        }
+        .btn-secondary {
+            background-color: #374151;
+        }
+        .btn-secondary:hover {
+            background-color: #4b5563;
+        }
+        .btn-success {
+             background-color: #16a34a;
+        }
+        .btn-success:hover {
+            background-color: #15803d;
+        }
+        .btn.loaded, .btn-secondary.loaded {
+            background-color: #16a34a;
+            border-color: #15803d;
+        }
+        .editor-container .item-card {
+            background-color: #374151;
+            border: 1px solid #4b5563;
+        }
+        .editor-toggle-btn {
+            background-color: #374151;
+            border: 2px solid transparent;
+        }
+        .editor-toggle-btn.active {
+            border-color: #4f46e5;
+            background-color: #4338ca;
+        }
+    </style>
+</head>
+<body class="text-gray-200 p-4 sm:p-6 md:p-8">
+    <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-indigo-400">DayZ XML Tool</h1>
+            <p class="text-gray-400 mt-2">Merge, edit, and report on XML files for Snafu & FOG mods.</p>
+        </header>
+
+        <main class="space-y-8">
+            <!-- File Loading Section -->
+            <section class="section-card p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4 text-indigo-300 border-b border-gray-700 pb-2">1. Load Files</h2>
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold mb-3">Auto-Load from Source</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="space-y-2">
+                            <h4 class="text-lg font-semibold text-center text-gray-400">Vanilla</h4>
+                            <button id="load-vanilla-types" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load types.xml</button>
+                            <button id="load-vanilla-spawnable" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load cfgspawnabletypes.xml</button>
+                        </div>
+                         <div class="space-y-2">
+                            <h4 class="text-lg font-semibold text-center text-gray-400">Snafu</h4>
+                            <button id="load-snafu-types" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load types.xml</button>
+                            <button id="load-snafu-spawnable" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load cfgspawnabletypes.xml</button>
+                        </div>
+                         <div class="space-y-2">
+                            <h4 class="text-lg font-semibold text-center text-gray-400">FOG</h4>
+                            <button id="load-fog-types" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load types.xml</button>
+                            <button id="load-fog-spawnable" class="btn btn-primary w-full font-bold py-2 px-4 rounded-md">Load cfgspawnabletypes.xml</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-3">Or Upload Manually</h3>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-4 section-card p-4 rounded-lg">
+                             <h4 class="text-lg font-semibold text-center text-gray-400 mb-2">Base Files</h4>
+                             <div>
+                                <label class="btn btn-secondary w-full text-center font-bold py-2 px-4 rounded-md cursor-pointer">Upload Base types.xml<input type="file" id="vanilla-types" class="hidden" accept=".xml"></label>
+                                <span id="vanilla-types-status" class="text-xs text-center block text-gray-500 mt-1 h-4 truncate">No file selected</span>
+                             </div>
+                             <div>
+                                <label class="btn btn-secondary w-full text-center font-bold py-2 px-4 rounded-md cursor-pointer">Upload Base cfgspawnabletypes.xml<input type="file" id="vanilla-spawnable" class="hidden" accept=".xml"></label>
+                                <span id="vanilla-spawnable-status" class="text-xs text-center block text-gray-500 mt-1 h-4 truncate">No file selected</span>
+                             </div>
+                        </div>
+                        <div class="space-y-4 section-card p-4 rounded-lg">
+                            <h4 class="text-lg font-semibold text-center text-gray-400 mb-2">Additional Mod</h4>
+                            <div>
+                                <label class="btn btn-secondary w-full text-center font-bold py-2 px-4 rounded-md cursor-pointer">Upload Mod types.xml<input type="file" id="other-types" class="hidden" accept=".xml"></label>
+                                <span id="other-types-status" class="text-xs text-center block text-gray-500 mt-1 h-4 truncate">No file selected</span>
+                            </div>
+                            <div>
+                                <label class="btn btn-secondary w-full text-center font-bold py-2 px-4 rounded-md cursor-pointer">Upload Mod cfgspawnabletypes.xml<input type="file" id="other-spawnable" class="hidden" accept=".xml"></label>
+                                <span id="other-spawnable-status" class="text-xs text-center block text-gray-500 mt-1 h-4 truncate">No file selected</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Editor Toggle -->
+            <section class="section-card p-6 rounded-lg shadow-lg">
+                 <h2 class="text-2xl font-semibold mb-4 text-indigo-300 border-b border-gray-700 pb-2">2. Select Editor</h2>
+                 <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <div id="editor-type-selector" class="flex gap-2 p-1 bg-gray-900 rounded-lg">
+                        <button data-editor-type="spawnable" class="editor-toggle-btn active font-semibold py-2 px-4 rounded-md">Spawnable</button>
+                        <button data-editor-type="types" class="editor-toggle-btn font-semibold py-2 px-4 rounded-md">Types</button>
+                    </div>
+                    <select id="mod-select" class="bg-gray-700 border border-gray-600 text-white rounded-md p-2 w-full sm:w-auto">
+                        <option value="">-- Select Mod to Edit --</option>
+                        <option value="snafu">Snafu</option>
+                        <option value="fog">FOG</option>
+                    </select>
+                 </div>
+            </section>
+
+            <!-- Editors -->
+            <div id="editors-wrapper">
+                <section id="snafu-spawnable-editor-section" class="editor-section hidden"><div id="snafu-spawnable-editor-container" class="editor-container space-y-6"></div></section>
+                <section id="fog-spawnable-editor-section" class="editor-section hidden"><div id="fog-spawnable-editor-container" class="editor-container space-y-6"></div></section>
+                <section id="snafu-types-editor-section" class="editor-section hidden"><div id="snafu-types-editor-container" class="editor-container space-y-6"></div></section>
+                <section id="fog-types-editor-section" class="editor-section hidden"><div id="fog-types-editor-container" class="editor-container space-y-6"></div></section>
+            </div>
+
+            <!-- Merge Tool Section -->
+            <section class="section-card p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4 text-indigo-300 border-b border-gray-700 pb-2">3. Merge Files</h2>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button id="merge-types" class="btn btn-success font-bold py-2 px-4 rounded-md w-full sm:w-auto">Merge types.xml</button>
+                    <button id="merge-spawnable" class="btn btn-success font-bold py-2 px-4 rounded-md w-full sm:w-auto">Merge cfgspawnabletypes.xml</button>
+                </div>
+            </section>
+
+            <!-- Output Section -->
+            <section class="section-card p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4 text-indigo-300 border-b border-gray-700 pb-2">4. Final Output</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Merged types.xml</h3>
+                        <textarea id="merged-types-output" class="w-full h-96 bg-gray-900 text-gray-300 p-2 rounded-md border border-gray-700" placeholder="Merged types.xml will appear here..."></textarea>
+                        <button id="download-types" class="btn btn-secondary mt-2 font-bold py-2 px-4 rounded-md w-full sm:w-auto">Download types.xml</button>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Merged cfgspawnabletypes.xml</h3>
+                        <textarea id="merged-spawnable-output" class="w-full h-96 bg-gray-900 text-gray-300 p-2 rounded-md border border-gray-700" placeholder="Merged cfgspawnabletypes.xml will appear here..."></textarea>
+                        <button id="download-spawnable" class="btn btn-secondary mt-2 font-bold py-2 px-4 rounded-md w-full sm:w-auto">Download cfgspawnabletypes.xml</button>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <button id="download-report" class="btn btn-primary font-bold py-2 px-4 rounded-md w-full sm:w-1/2 md:w-1/3">Download Report.txt</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const fileInputs = {
+            'vanilla-types': { content: null, name: '' },
+            'vanilla-spawnable': { content: null, name: '' },
+            'snafu-types': { content: null, name: '', originalContent: null },
+            'snafu-spawnable': { content: null, name: '', originalContent: null },
+            'fog-types': { content: null, name: '', originalContent: null },
+            'fog-spawnable': { content: null, name: '', originalContent: null },
+            'other-types': { content: null, name: '' },
+            'other-spawnable': { content: null, name: '' }
+        };
+
+        const urls = {
+            'load-vanilla-types': { url: 'https://raw.githubusercontent.com/BohemiaInteractive/DayZ-Central-Economy/refs/heads/master/dayzOffline.chernarusplus/db/types.xml', key: 'vanilla-types' },
+            'load-vanilla-spawnable': { url: 'https://raw.githubusercontent.com/BohemiaInteractive/DayZ-Central-Economy/refs/heads/master/dayzOffline.chernarusplus/cfgspawnabletypes.xml', key: 'vanilla-spawnable' },
+            'load-snafu-types': { url: 'https://raw.githubusercontent.com/KingAlobar/PC-MOD-TYPES-ETC/refs/heads/main/SNAFU_types.xml', key: 'snafu-types' },
+            'load-snafu-spawnable': { url: 'https://raw.githubusercontent.com/KingAlobar/PC-MOD-TYPES-ETC/refs/heads/main/snafuspawnabletypes25percent.xml', key: 'snafu-spawnable' },
+            'load-fog-types': { url: 'https://raw.githubusercontent.com/KingAlobar/PC-MOD-TYPES-ETC/refs/heads/main/FOG_Types.xml', key: 'fog-types' },
+            'load-fog-spawnable': { url: 'https://raw.githubusercontent.com/KingAlobar/PC-MOD-TYPES-ETC/refs/heads/main/FOG_spawnabletypes.xml', key: 'fog-spawnable' }
+        };
+
+        Object.keys(urls).forEach(id => {
+            document.getElementById(id).addEventListener('click', () => loadFileFromURL(urls[id].url, urls[id].key, id));
+        });
+
+        async function loadFileFromURL(url, key, buttonId) {
+            const button = document.getElementById(buttonId);
+            const statusEl = document.getElementById(`${key}-status`);
+            if (statusEl) statusEl.textContent = 'Loading...';
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const text = await response.text();
+                handleFileContent(key, text, url.split('/').pop());
+                button.classList.add('loaded');
+                const manualUploadLabel = document.querySelector(`label[for="${key}"]`);
+                if(manualUploadLabel) manualUploadLabel.classList.add('loaded');
+            } catch (error) {
+                console.error('Error fetching file:', error);
+                if (statusEl) statusEl.textContent = 'Failed to load';
+                alert(`Could not load file from: ${url}\n\nError: ${error.message}\n\nPlease try a manual upload.`);
+                button.classList.remove('loaded');
+            }
+        }
+
+        Object.keys(fileInputs).forEach(id => {
+            const input = document.getElementById(id);
+            if(input) input.addEventListener('change', (event) => {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                         handleFileContent(id, e.target.result, file.name);
+                         input.parentElement.classList.add('loaded');
+                    };
+                    reader.readAsText(file);
+                }
+            });
+        });
+
+        function handleFileContent(key, content, name) {
+            fileInputs[key].content = content;
+            fileInputs[key].name = name;
+            fileInputs[key].originalContent = content;
+            const statusEl = document.getElementById(`${key}-status`);
+            if(statusEl) statusEl.textContent = name;
+
+            const modPrefix = key.split('-')[0];
+            if (modPrefix === 'vanilla' || modPrefix === 'other') return;
+
+            if (key.endsWith('-spawnable')) {
+                populateSpawnableEditor(content, modPrefix);
+            } else if (key.endsWith('-types')) {
+                populateTypesEditor(content, modPrefix);
+            }
+        }
+        
+        const editorTypeSelector = document.getElementById('editor-type-selector');
+        const modSelect = document.getElementById('mod-select');
+        let currentEditorType = 'spawnable';
+        
+        editorTypeSelector.addEventListener('click', (e) => {
+            if (e.target.tagName === 'BUTTON') {
+                currentEditorType = e.target.dataset.editorType;
+                editorTypeSelector.querySelector('.active').classList.remove('active');
+                e.target.classList.add('active');
+                updateEditorVisibility();
+            }
+        });
+        
+        function updateEditorVisibility() {
+            const selectedMod = modSelect.value;
+            document.querySelectorAll('.editor-section').forEach(el => el.classList.add('hidden'));
+            if (selectedMod) {
+                const sectionId = `${selectedMod}-${currentEditorType}-editor-section`;
+                const section = document.getElementById(sectionId);
+                if(section) section.classList.remove('hidden');
+            }
+        }
+        
+        modSelect.addEventListener('change', updateEditorVisibility);
+
+        function createInputField(label, value, type = 'text') {
+            return `<div class="flex flex-col"><label class="text-sm font-medium text-gray-400 mb-1">${label}</label><input type="${type}" value="${value}" class="w-full bg-gray-800 text-white p-2 rounded-md border border-gray-600 focus:ring-indigo-500 focus:border-indigo-500"></div>`;
+        }
+
+        function populateTypesEditor(xmlContent, modPrefix) {
+            const container = document.getElementById(`${modPrefix}-types-editor-container`);
+            container.innerHTML = '';
+            try {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlContent, "application/xml");
+                const types = xmlDoc.getElementsByTagName('type');
+                for (const typeNode of types) {
+                    const itemName = typeNode.getAttribute('name');
+                    const itemCard = document.createElement('div');
+                    itemCard.className = 'item-card p-4 rounded-lg';
+                    itemCard.dataset.itemName = itemName;
+                    itemCard.innerHTML = `<h3 class="text-xl font-bold text-indigo-300 mb-3">${itemName}</h3>`;
+                    const detailsGrid = document.createElement('div');
+                    detailsGrid.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4';
+
+                    const simpleValues = ['nominal', 'lifetime', 'restock', 'min', 'quantmin', 'quantmax', 'cost'];
+                    simpleValues.forEach(tag => {
+                        const node = typeNode.getElementsByTagName(tag)[0];
+                        detailsGrid.innerHTML += createInputField(tag, node ? node.textContent : '', 'number');
+                    });
+                    
+                    const multiValueTags = ['category', 'usage', 'value'];
+                    multiValueTags.forEach(tag => {
+                        const nodes = typeNode.getElementsByTagName(tag);
+                        if(nodes.length > 0) {
+                             detailsGrid.innerHTML += `<div class="sm:col-span-2"><label class="block text-sm font-medium text-gray-400 mb-1">${tag} (comma separated)</label><input type="text" data-tag-name="${tag}" value="${Array.from(nodes).map(n => n.getAttribute('name')).join(',')}" class="mt-1 block w-full bg-gray-800 text-white p-2 rounded-md border border-gray-600 focus:ring-indigo-500 focus:border-indigo-500"></div>`;
+                        }
+                    });
+                    itemCard.appendChild(detailsGrid);
+
+                    const flagsNode = typeNode.getElementsByTagName('flags')[0];
+                    if(flagsNode) {
+                        const flagsContainer = document.createElement('div');
+                        flagsContainer.className = 'mt-4';
+                        flagsContainer.innerHTML = `<h4 class="text-lg font-semibold mt-2 mb-1 text-gray-300">Flags</h4>
+                            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                            ${Array.from(flagsNode.attributes).map(attr => `
+                                <label class="flex items-center space-x-2 p-2 rounded-md bg-gray-700">
+                                    <input type="checkbox" data-flag="${attr.name}" ${attr.value === "1" ? "checked" : ""} class="form-checkbox h-5 w-5 bg-gray-800 border-gray-600 text-indigo-600 focus:ring-indigo-500 rounded">
+                                    <span class="text-gray-300">${attr.name}</span>
+                                </label>`).join('')}
+                            </div>`;
+                        itemCard.appendChild(flagsContainer);
+                    }
+                    container.appendChild(itemCard);
+                }
+            } catch (e) {
+                console.error(`Error parsing ${modPrefix} types XML for editor:`, e);
+            }
+        }
+        
+        function rebuildTypesFromEditor(modPrefix) {
+            const container = document.getElementById(`${modPrefix}-types-editor-container`);
+            if (!container || !container.hasChildNodes()) return fileInputs[`${modPrefix}-types`].content;
+            let xmlString = '';
+            const itemCards = container.querySelectorAll('.item-card');
+            itemCards.forEach(card => {
+                const itemName = card.dataset.itemName;
+                xmlString += `\t<type name="${itemName}">\n`;
+                const inputs = card.querySelectorAll('input[type="text"], input[type="number"]');
+                inputs.forEach(input => {
+                    const label = input.previousElementSibling ? input.previousElementSibling.textContent.toLowerCase().split(' ')[0] : (input.dataset.tagName || '');
+                    const value = input.value;
+                    if(input.dataset.tagName) {
+                        value.split(',').forEach(val => {
+                            if(val.trim()) xmlString += `\t\t<${input.dataset.tagName} name="${val.trim()}" />\n`;
+                        });
+                    } else if (label && value) {
+                        xmlString += `\t\t<${label}>${value}</${label}>\n`;
+                    }
+                });
+                const flagCheckboxes = card.querySelectorAll('input[type="checkbox"]');
+                if (flagCheckboxes.length > 0) {
+                    let flagsAttr = Array.from(flagCheckboxes).map(cb => `${cb.dataset.flag}="${cb.checked ? '1' : '0'}"`).join(' ');
+                    xmlString += `\t\t<flags ${flagsAttr}/>\n`;
+                }
+                xmlString += `\t</type>\n`;
+            });
+            return `<types>\n${xmlString}</types>`;
+        }
+
+        function populateSpawnableEditor(xmlContent, modPrefix) {
+            const container = document.getElementById(`${modPrefix}-spawnable-editor-container`);
+            container.innerHTML = '';
+            try {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlContent, "application/xml");
+                const types = xmlDoc.getElementsByTagName('type');
+                for (const typeNode of types) {
+                    const itemName = typeNode.getAttribute('name');
+                    const itemCard = document.createElement('div');
+                    itemCard.className = 'item-card p-4 rounded-lg';
+                    itemCard.dataset.itemName = itemName;
+                    itemCard.innerHTML = `<h3 class="text-xl font-bold text-indigo-300 mb-3">${itemName}</h3>`;
+                    const attachmentsNodes = typeNode.getElementsByTagName('attachments');
+                    for (const attachmentsNode of attachmentsNodes) {
+                        const groupDiv = document.createElement('div');
+                        groupDiv.className = 'attachment-group p-3 rounded-md mb-3 bg-gray-800';
+                        const groupChance = attachmentsNode.getAttribute('chance');
+                        groupDiv.innerHTML = `<div class="flex items-center mb-2"><label class="font-semibold mr-2">Group Chance:</label><input type="number" step="0.01" min="0" max="1" value="${groupChance}" class="bg-gray-900 text-white p-1 rounded-md w-20 border border-gray-700"></div>`;
+                        const itemsNodes = attachmentsNode.getElementsByTagName('item');
+                        for (const itemNode of itemsNodes) {
+                            const itemName = itemNode.getAttribute('name');
+                            const itemChance = itemNode.getAttribute('chance');
+                            groupDiv.innerHTML += `<div class="flex items-center justify-between ml-4 py-1"><span>${itemName}</span><input type="number" step="0.01" min="0" max="1" value="${itemChance}" data-item-name="${itemName}" class="bg-gray-900 text-white p-1 rounded-md w-20 border border-gray-700"></div>`;
+                        }
+                        itemCard.appendChild(groupDiv);
+                    }
+                    container.appendChild(itemCard);
+                }
+            } catch (e) {
+                console.error(`Error parsing ${modPrefix} spawnable XML for editor:`, e);
+            }
+        }
+
+        function rebuildSpawnableFromEditor(modPrefix) {
+            const container = document.getElementById(`${modPrefix}-spawnable-editor-container`);
+            if (!container || !container.hasChildNodes()) return fileInputs[`${modPrefix}-spawnable`].content;
+            let xmlString = '';
+            const itemCards = container.querySelectorAll('.item-card');
+            itemCards.forEach(card => {
+                const itemName = card.dataset.itemName;
+                xmlString += `\t<type name="${itemName}">\n`;
+                const attachmentGroups = card.querySelectorAll('.attachment-group');
+                attachmentGroups.forEach(group => {
+                    const groupChance = group.querySelector('input').value;
+                    xmlString += `\t\t<attachments chance="${groupChance}">\n`;
+                    const items = group.querySelectorAll('input[data-item-name]');
+                    items.forEach(itemInput => {
+                        const itemName = itemInput.dataset.itemName;
+                        const itemChance = itemInput.value;
+                        xmlString += `\t\t\t<item name="${itemName}" chance="${itemChance}" />\n`;
+                    });
+                    xmlString += `\t\t</attachments>\n`;
+                });
+                xmlString += `\t</type>\n`;
+            });
+            return xmlString;
+        }
+
+        function mergeXmlFiles(baseDoc, modDocs, rootTag) {
+             const baseRoot = baseDoc.getElementsByTagName(rootTag)[0];
+             for(const modDoc of modDocs) {
+                 if (modDoc) {
+                     const modTypes = modDoc.getElementsByTagName('type');
+                     for (let i = 0; i < modTypes.length; i++) {
+                         baseRoot.appendChild(modTypes[i].cloneNode(true));
+                     }
+                 }
+             }
+        }
+
+        document.getElementById('merge-types').addEventListener('click', () => {
+            if (!fileInputs['vanilla-types'].content) {
+                alert("Please load at least the vanilla types.xml file.");
+                return;
+            }
+            if(fileInputs['snafu-types'].content) fileInputs['snafu-types'].content = rebuildTypesFromEditor('snafu');
+            if(fileInputs['fog-types'].content) fileInputs['fog-types'].content = rebuildTypesFromEditor('fog');
+            
+            const parser = new DOMParser();
+            const vanillaDoc = parser.parseFromString(fileInputs['vanilla-types'].content, "application/xml");
+            const snafuDoc = fileInputs['snafu-types'].content ? parser.parseFromString(fileInputs['snafu-types'].content, "application/xml") : null;
+            const fogDoc = fileInputs['fog-types'].content ? parser.parseFromString(fileInputs['fog-types'].content, "application/xml") : null;
+            const otherDoc = fileInputs['other-types'].content ? parser.parseFromString(fileInputs['other-types'].content, "application/xml") : null;
+            mergeXmlFiles(vanillaDoc, [snafuDoc, fogDoc, otherDoc], 'types');
+            const serializer = new XMLSerializer();
+            document.getElementById('merged-types-output').value = formatXml(serializer.serializeToString(vanillaDoc));
+        });
+
+        document.getElementById('merge-spawnable').addEventListener('click', () => {
+            if (!fileInputs['vanilla-spawnable'].content) {
+                alert("Please load at least the vanilla cfgspawnabletypes.xml file.");
+                return;
+            }
+            if (fileInputs['snafu-spawnable'].content) fileInputs['snafu-spawnable'].content = rebuildSpawnableFromEditor('snafu');
+            if (fileInputs['fog-spawnable'].content) fileInputs['fog-spawnable'].content = rebuildSpawnableFromEditor('fog');
+            
+            const parser = new DOMParser();
+            const vanillaDoc = parser.parseFromString(fileInputs['vanilla-spawnable'].content, "application/xml");
+            const snafuDoc = fileInputs['snafu-spawnable'].content ? parser.parseFromString(`<root>${fileInputs['snafu-spawnable'].content}</root>`, "application/xml") : null;
+            const fogDoc = fileInputs['fog-spawnable'].content ? parser.parseFromString(`<root>${fileInputs['fog-spawnable'].content}</root>`, "application/xml") : null;
+            const otherDoc = fileInputs['other-spawnable'].content ? parser.parseFromString(`<root>${fileInputs['other-spawnable'].content}</root>`, "application/xml") : null;
+            mergeXmlFiles(vanillaDoc, [snafuDoc, fogDoc, otherDoc], 'spawnabletypes');
+            const serializer = new XMLSerializer();
+            document.getElementById('merged-spawnable-output').value = formatXml(serializer.serializeToString(vanillaDoc));
+        });
+        
+        document.getElementById('download-report').addEventListener('click', () => {
+            const report = generateReport();
+            downloadFile('report.txt', report);
+        });
+
+        function generateReport() {
+            let report = `DayZ XML Tool Report - ${new Date().toLocaleString()}\n==================================================\n\n`;
+            report += '--- LOADED FILES ---\n';
+            Object.keys(fileInputs).forEach(key => {
+                 report += `${key.replace(/-/g, ' ')}.xml: ${fileInputs[key].name || 'Not loaded'}\n`;
+            });
+            report += '\n';
+
+            function appendEditorReport(modPrefix, type) {
+                if (fileInputs[`${modPrefix}-${type}`].content) {
+                    report += `--- ${modPrefix.toUpperCase()} ${type.toUpperCase().replace('SPAWNABLE', 'SPAWNABLETYPES')} EDITS ---\n`;
+                    const originalXml = fileInputs[`${modPrefix}-${type}`].originalContent;
+                    const editedXml = type === 'spawnable' ? rebuildSpawnableFromEditor(modPrefix) : rebuildTypesFromEditor(modPrefix);
+                    if (originalXml && originalXml.trim() === editedXml.trim()) {
+                        report += 'No changes were made in the editor.\n\n';
+                    } else {
+                        report += `Changes were made to the ${modPrefix} ${type} file:\n${editedXml}\n\n`;
+                    }
+                }
+            }
+            appendEditorReport('snafu', 'spawnable');
+            appendEditorReport('fog', 'spawnable');
+            appendEditorReport('snafu', 'types');
+            appendEditorReport('fog', 'types');
+
+            report += '--- MERGE RESULTS ---\n';
+            report += `types.xml: ${document.getElementById('merged-types-output').value ? 'Merged successfully.' : 'Not merged.'}\n`;
+            report += `cfgspawnabletypes.xml: ${document.getElementById('merged-spawnable-output').value ? 'Merged successfully.' : 'Not merged.'}\n\n`;
+            return report;
+        }
+
+        function downloadFile(filename, content) {
+            const element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(content));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        document.getElementById('download-types').addEventListener('click', () => {
+            const content = document.getElementById('merged-types-output').value;
+            if (content) downloadFile('types.xml', content); else alert("No content to download.");
+        });
+
+        document.getElementById('download-spawnable').addEventListener('click', () => {
+            const content = document.getElementById('merged-spawnable-output').value;
+            if (content) downloadFile('cfgspawnabletypes.xml', content); else alert("No content to download.");
+        });
+        
+        function formatXml(xml) {
+            let formatted = '';
+            const reg = /(>)(<)(\/*)/g;
+            xml = xml.replace(reg, '$1\r\n$2$3');
+            let pad = 0;
+            xml.split('\r\n').forEach(node => {
+                let indent = 0;
+                if (node.match(/.+<\/\w[^>]*>$/)) indent = 0;
+                else if (node.match(/^<\/\w/)) { if (pad !== 0) pad -= 1; }
+                else if (node.match(/^<\w[^>]*[^\/]>.*$/)) indent = 1;
+                else indent = 0;
+                let padding = '';
+                for (let i = 0; i < pad; i++) padding += '    ';
+                formatted += padding + node + '\r\n';
+                pad += indent;
+            });
+            return formatted;
+        }
+    </script>
+</body>
+</html>
