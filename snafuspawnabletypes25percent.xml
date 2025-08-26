@@ -1,9 +1,10 @@
-			<!-- Spawnable Types for Snafu - Created by Dirk -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
 	<type name="SNAFUKivaari_Black_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_HHuntingOptic" chance="0.06" />
 			<item name="SNAFU_HNightforce" chance="0.06" />
@@ -32,23 +33,23 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.03" />
 			<item name="SNAFU_Kobra" chance="0.03" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_10rdMag" chance="0.80" />
 			<item name="SNAFUKivaari_25rdMag" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+			<attachments chance="0.85">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUKivaari_Tan_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_HHuntingOptic" chance="0.06" />
 			<item name="SNAFU_HNightforce" chance="0.06" />
@@ -77,23 +78,23 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.03" />
 			<item name="SNAFU_Kobra" chance="0.03" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_10rdMag" chance="0.80" />
 			<item name="SNAFUKivaari_25rdMag" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+			<attachments chance="0.85">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUKivaari_Grey_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_HHuntingOptic" chance="0.06" />
 			<item name="SNAFU_HNightforce" chance="0.06" />
@@ -122,23 +123,23 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.03" />
 			<item name="SNAFU_Kobra" chance="0.03" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_10rdMag" chance="0.80" />
 			<item name="SNAFUKivaari_25rdMag" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+			<attachments chance="0.85">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUKivaari_Snow_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_HHuntingOptic" chance="0.06" />
 			<item name="SNAFU_HNightforce" chance="0.06" />
@@ -167,42 +168,42 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.03" />
 			<item name="SNAFU_Kobra" chance="0.03" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_10rdMag" chance="0.80" />
 			<item name="SNAFUKivaari_25rdMag" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="0.33" />
 			<item name="SNAFU_AtlasBipod" chance="0.33" />
 			<item name="SNAFU_ModBipod" chance="0.33" />
 		</attachments>
-			<attachments chance="0.25">
+			<attachments chance="0.85">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M1918A2">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M1918A2_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_U100">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_U100_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M14">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M14_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M14Optic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M76">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M76_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -221,11 +222,11 @@
 		</attachments>
 	</type>
 	<type name="SNAFU_SKS">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SKS_10Rnd_Mag" chance="0.70" />
 			<item name="SNAFU_SKS_30Rnd_Mag" chance="0.30" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_MHuntingOptic" chance="0.08" />
 			<item name="SNAFU_MNightforce" chance="0.08" />
 			<item name="SNAFU_MLeupold_Mark8" chance="0.08" />
@@ -242,17 +243,17 @@
 			<item name="SNAFU_MTango6T_Wood" chance="0.03" />
 			<item name="SNAFU_MTango6T_Snow" chance="0.03" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SKS_Bayonet" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_FRF2">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FRF2_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M48">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_MHuntingOptic" chance="0.08" />
 			<item name="SNAFU_MNightforce" chance="0.08" />
 			<item name="SNAFU_MLeupold_Mark8" chance="0.08" />
@@ -271,26 +272,26 @@
 		</attachments>
 	</type>
 	<type name="SNAFU_TP82S">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SN_Glock19">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_Glock_15Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SN_M870">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Blue" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Brown" chance="0.10" />
@@ -300,59 +301,59 @@
 			<item name="SNAFU_Shotgunchoke_Tur" chance="0.10" />
 			<item name="SNAFU_Shotgunchoke_Yellow" chance="0.10" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SN_Mp443">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SN_Mp443_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SN_M9">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SN_M9_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SN_USP">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SN_USP_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Tec9_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Tec9_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUVECTOR_9mm_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUVECTOR_9mm_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.20" />
 			<item name="SNAFU_Aimpoint_M5" chance="0.20" />
 			<item name="SNAFU_Elcan" chance="0.10" />
@@ -364,13 +365,13 @@
 		</attachments>
 	</type>
 	<type name="SNAFUVECTOR_45acp_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUVECTOR_45acp_Mag" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.20" />
 			<item name="SNAFU_Aimpoint_M5" chance="0.20" />
 			<item name="SNAFU_Elcan" chance="0.10" />
@@ -382,13 +383,13 @@
 		</attachments>
 	</type>
 	<type name="GCGN_MP7">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_MP7_40Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.20" />
 			<item name="SNAFU_Aimpoint_M5" chance="0.20" />
 			<item name="SNAFU_Elcan" chance="0.10" />
@@ -400,10 +401,10 @@
 		</attachments>
 	</type>
 	<type name="GCGN_VEPR">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_VEPR_10rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -422,10 +423,10 @@
 		</attachments>
 	</type>
 	<type name="GCGN_Vityaz">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_Vityaz_30Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -442,11 +443,11 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK19_Stock" chance="0.50" />
 			<item name="SNAFU_AK_AR_Stock" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="AK_PlasticHndgrd" chance="1.00" />
 		</attachments>
 	</type>
@@ -455,10 +456,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -476,7 +477,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -484,11 +485,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -496,7 +497,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -504,7 +505,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -518,10 +519,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -539,7 +540,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -547,11 +548,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -559,7 +560,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -567,7 +568,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -577,7 +578,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFU_AK12A">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -595,20 +596,20 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK_AR_Stock" chance="0.50" />
 			<item name="SNAFU_AK19_Stock" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK12_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_AK103A">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -625,16 +626,16 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK103_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_RPK16_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -652,18 +653,18 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
 			<item name="SNAFU_RPK16_Green_Mag" chance="0.33" />
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
 		</attachments>
 	</type>
 	<type name="SNAFU_RPK16_Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -681,18 +682,18 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
 			<item name="SNAFU_RPK16_Green_Mag" chance="0.33" />
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
 		</attachments>
 	</type>
 	<type name="SNAFU_RPK16_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -710,11 +711,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
 			<item name="SNAFU_RPK16_Green_Mag" chance="0.33" />
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
@@ -722,7 +723,7 @@
 	</type>
 				<!--  No suppressor slot on this gun but it does seem to take one, bit odd!  -->
 	<type name="SNAFU_AEK545_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -740,11 +741,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
 			<item name="SNAFU_RPK16_Green_Mag" chance="0.33" />
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
@@ -752,7 +753,7 @@
 	</type>
 			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="GCGN_M4A1">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -770,7 +771,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -778,7 +779,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.16" />
 			<item name="SNAFU_MOE_Stock" chance="0.14" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.14" />
@@ -787,11 +788,11 @@
 			<item name="SNAFU_MK47_Stock" chance="0.14" />
 			<item name="SNAFU_M4SS_Stock" chance="0.14" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -807,7 +808,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFU_CZ805_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -825,22 +826,22 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
 			<item name="Mag_STANAG_60Rnd" chance="0.25" />
 			<item name="Mag_STANAGCoupled_30Rnd" chance="0.25" />
 		</attachments>
 	</type>
 	<type name="GCGN_HK416">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -858,15 +859,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -882,12 +883,12 @@
 		</attachments>
 	</type>
 	<type name="SN_Auto_Shotgun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.34" />
 			<item name="SNAFU_Walther" chance="0.33" />
 			<item name="SNAFU_Kobra" chance="0.33" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Blue" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Brown" chance="0.10" />
@@ -897,12 +898,12 @@
 			<item name="SNAFU_Shotgunchoke_Tur" chance="0.10" />
 			<item name="SNAFU_Shotgunchoke_Yellow" chance="0.10" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SN_Auto_Shotgun_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="ACR_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -920,7 +921,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -930,18 +931,18 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
 			<item name="Mag_STANAG_60Rnd" chance="0.25" />
 			<item name="Mag_STANAGCoupled_30Rnd" chance="0.25" />
 		</attachments>
 	</type>
 	<type name="HK416_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -959,15 +960,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -987,10 +988,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK10" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1008,15 +1009,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -1032,12 +1033,12 @@
 		</attachments>
 	</type>
 	<type name="VR80_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.34" />
 			<item name="SNAFU_Walther" chance="0.33" />
 			<item name="SNAFU_Kobra" chance="0.33" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Blue" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Brown" chance="0.10" />
@@ -1047,13 +1048,13 @@
 			<item name="SNAFU_Shotgunchoke_Tur" chance="0.10" />
 			<item name="SNAFU_Shotgunchoke_Yellow" chance="0.10" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="VR80_Magazine_5rd" chance="0.50" />
 			<item name="VR80_Magazine_10rd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="Spas12_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Blue" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Brown" chance="0.10" />
@@ -1065,7 +1066,7 @@
 		</attachments>
 	</type>
 	<type name="IA2_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1083,7 +1084,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1093,11 +1094,11 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -1113,7 +1114,7 @@
 		</attachments>
 	</type>
 	<type name="SG550_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1131,16 +1132,16 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SG550_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M110_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1158,11 +1159,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1172,12 +1173,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M110_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M110_Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1195,11 +1196,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1209,12 +1210,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M110_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M110_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1232,11 +1233,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1246,12 +1247,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M110_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_SR25_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1269,10 +1270,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR25_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1282,12 +1283,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR25_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_KAC_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1305,10 +1306,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR25_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1317,7 +1318,7 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_KAC_Mag" chance="1.00" />
 		</attachments>
 	</type>
@@ -1325,10 +1326,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_HG625" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1346,11 +1347,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1360,12 +1361,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Saint_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFURSASS_Wood_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1383,11 +1384,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1397,12 +1398,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFURSASS_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFURSASS_od_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1420,11 +1421,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1434,12 +1435,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFURSASS_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFURSASS_dkmc_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1457,11 +1458,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1471,13 +1472,13 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFURSASS_Mag" chance="1.00" />
 		</attachments>
 	</type>
 			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="SR3_Vikhr_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -1494,24 +1495,24 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3Vikhr_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3HG" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+				<attachments chance="0.85">
 			<item name="SNAFU_WSR3Stock" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+				<attachments chance="0.85">
 			<item name="SNAFU_SR3Grip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3Vikhr_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M700">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1529,12 +1530,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M700_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNHK417_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1552,20 +1553,20 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNHK417_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="MK18_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1583,15 +1584,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -1607,7 +1608,7 @@
 		</attachments>
 	</type>
 	<type name="SNSA58_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1625,17 +1626,17 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SA58_FGrip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SA58_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SA58_30RND_BK" chance="0.28" />
 			<item name="SA58_30RND_WBK" chance="0.28" />
 			<item name="SA58_30RND_DT" chance="0.28" />
@@ -1643,7 +1644,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUM24_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1661,18 +1662,18 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AtlasBipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM24_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SCAR_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1690,12 +1691,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
 
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -1711,10 +1712,10 @@
 		</attachments>
 	</type>
 	<type name="GCGN_M82_Barret">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
-			<item name="SNAFU_Leupold_Mark8" chance="0.06" />		<attachments chance="0.25">
+			<item name="SNAFU_Leupold_Mark8" chance="0.06" />		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -1738,19 +1739,19 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M82_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M200">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1768,25 +1769,25 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200S_BK" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200B_BK" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M200_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_AWM_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1804,15 +1805,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AWM_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUAX50_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1830,19 +1831,19 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUAX50_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Atac_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1860,15 +1861,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Digi_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1886,15 +1887,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Ger_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1912,15 +1913,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Mc_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1938,15 +1939,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Snow_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1964,15 +1965,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM98B_Wood_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -1990,15 +1991,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM98B_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUT5000_Dkmcc_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2016,15 +2017,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUT5000_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUT5000_Snow_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2042,15 +2043,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUT5000_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUT5000_Wood_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2068,15 +2069,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUT5000_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M249">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2094,39 +2095,39 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M249HG" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M249Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M249Bipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M249Grip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M249_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M1Garand">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M84_Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M1Garand_Supp" chance="0.34" />
 			<item name="GCGN_M1Garand_Bayonet" chance="0.33" />
 			<item name="GCGN_M1Garand_FlashHider" chance="0.33" />
 		</attachments>
 	</type>
 	<type name="AA12_Gun">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_ACO" chance="0.34" />
 			<item name="SNAFU_Walther" chance="0.33" />
 			<item name="SNAFU_Kobra" chance="0.33" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Blue" chance="0.20" />
 			<item name="SNAFU_Shotgunchoke_Brown" chance="0.10" />
@@ -2136,7 +2137,7 @@
 			<item name="SNAFU_Shotgunchoke_Tur" chance="0.10" />
 			<item name="SNAFU_Shotgunchoke_Yellow" chance="0.10" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2145,12 +2146,12 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="AA12_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="GCGN_M200_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2168,25 +2169,25 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200S_Tan" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200B_BK" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M200_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Snafu_ScarH_Black_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2204,10 +2205,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_SIL_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2217,7 +2218,7 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_25RND_Mag_BK" chance="0.40" />
 			<item name="Snafu_ScarH_25RND_Mag_Tan" chance="0.40" />
 			<item name="SNAFU_ScarH_100RND_Mag_Black" chance="0.10" />
@@ -2225,7 +2226,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_ScarH_DKMC_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2243,10 +2244,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_SIL_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2256,7 +2257,7 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_25RND_Mag_BK" chance="0.40" />
 			<item name="Snafu_ScarH_25RND_Mag_Tan" chance="0.40" />
 			<item name="SNAFU_ScarH_100RND_Mag_Black" chance="0.10" />
@@ -2264,7 +2265,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_ScarH_OD_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2282,10 +2283,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_SIL_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2295,7 +2296,7 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_25RND_Mag_BK" chance="0.40" />
 			<item name="Snafu_ScarH_25RND_Mag_Tan" chance="0.40" />
 			<item name="SNAFU_ScarH_100RND_Mag_Black" chance="0.10" />
@@ -2303,7 +2304,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_ScarH_Snow_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2321,10 +2322,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_SIL_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2334,7 +2335,7 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_25RND_Mag_BK" chance="0.40" />
 			<item name="Snafu_ScarH_25RND_Mag_Tan" chance="0.40" />
 			<item name="SNAFU_ScarH_100RND_Mag_Black" chance="0.10" />
@@ -2342,7 +2343,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_ScarH_Tan_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2360,10 +2361,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_SIL_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2373,7 +2374,7 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_ScarH_25RND_Mag_BK" chance="0.40" />
 			<item name="Snafu_ScarH_25RND_Mag_Tan" chance="0.40" />
 			<item name="SNAFU_ScarH_100RND_Mag_Black" chance="0.10" />
@@ -2381,7 +2382,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_pkp_Black_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -2398,16 +2399,16 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PKPBIPOD" chance="0.50" />
 			<item name="SNAFU_NPKPBIPOD" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_pkp_250RND_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Snafu_pkp_NBlack_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -2424,16 +2425,16 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PKPBIPOD" chance="0.50" />
 			<item name="SNAFU_NPKPBIPOD" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Snafu_pkp_250RND_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_MAR10_Black_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2451,56 +2452,56 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Mar10_15rnd_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_MP9_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_M5" chance="0.34" />
 			<item name="SNAFU_Walther" chance="0.33" />
 			<item name="SNAFU_Kobra" chance="0.33" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_MP9_30rnd_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_Fort12_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Fort12_12rnd_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_MPX_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_MPX_Suppressor_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_MPX_30rnd_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_CALI_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2518,11 +2519,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -2538,7 +2539,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFU_AS50_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2556,25 +2557,25 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Bipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AS50_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_Agram_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Agram_Suppressor_Black" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Agram_32rnd_Mag" chance="1.00" />
 		</attachments>
 	</type>
@@ -2582,7 +2583,7 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_AK_HG" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2600,10 +2601,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK19_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2612,11 +2613,11 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_AK101_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2624,7 +2625,7 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_AK_HG" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2642,10 +2643,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK19_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2654,24 +2655,24 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AK308_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUAPS">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUAPS_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUTAR21_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2689,11 +2690,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -2709,7 +2710,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUTAR21_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2727,11 +2728,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -2747,7 +2748,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUTAR21_Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2765,11 +2766,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -2785,7 +2786,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUASh12">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2803,7 +2804,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2813,12 +2814,12 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUASh12_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUFAMAS">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2836,11 +2837,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2849,7 +2850,7 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -2865,7 +2866,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUGM6Lynx">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2883,12 +2884,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUGM6Lynx_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUHoneyBadger_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2906,7 +2907,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2915,13 +2916,13 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUHoneyBadger_30rdMag_Black" chance="0.50" />
 			<item name="SNAFUHoneyBadger_30rdMag_Tan" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="SNAFUHoneyBadger_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2939,7 +2940,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2948,13 +2949,13 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUHoneyBadger_30rdMag_Black" chance="0.50" />
 			<item name="SNAFUHoneyBadger_30rdMag_Tan" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="SNAFUKH9">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -2972,10 +2973,10 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -2984,12 +2985,12 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKH9_30rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM1A_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3007,16 +3008,16 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM1A_Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3034,16 +3035,16 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM1A_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3061,16 +3062,16 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUM96">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3088,12 +3089,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUM96_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUMarlin1895">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3113,7 +3114,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUMk12">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3131,7 +3132,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -3141,16 +3142,16 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUMk12_20rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUP90">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3168,16 +3169,16 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUP90_50rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUSA80">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3195,7 +3196,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -3205,11 +3206,11 @@
 			<item name="SNAFU_FGCR_Grip" chance="0.35" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3225,7 +3226,7 @@
 		</attachments>
 	</type>
 	<type name="SNAFUSRSA2">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3243,12 +3244,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUSRSA2_10rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUTac21">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3266,26 +3267,26 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUTac21_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUUzi">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Aimpoint_M5" chance="0.34" />
 			<item name="SNAFU_Walther" chance="0.33" />
 			<item name="SNAFU_Kobra" chance="0.33" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUUzi_32rdMag" chance="0.70" />
 			<item name="SNAFUUzi_72rdMag" chance="0.30" />
 		</attachments>
 	</type>
 	<type name="SNAFUAUG">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3303,11 +3304,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -3316,12 +3317,12 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUAUG_30rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUAUG_BK">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3339,11 +3340,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -3352,12 +3353,12 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUAUG_30rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUDVL10M2">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3375,18 +3376,18 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AtlasBipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUDVL10M2_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUPPSKN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3404,12 +3405,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUPPSKN_30rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUThompsonMk2">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3427,11 +3428,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
 			<item name="SNAFU_AFG_02_OD" chance="0.05" />
@@ -3440,12 +3441,12 @@
 			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.70" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUThompsonMk2_30rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUAlligator">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3463,12 +3464,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUAlligator_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUGevar_Grey">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3486,15 +3487,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUGevar_10rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUGevar_Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3512,15 +3513,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUGevar_10rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUGevar_Black">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3538,15 +3539,15 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUGevar_10rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUGevar_Tan">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3564,28 +3565,28 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUGevar_10rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUPPSh">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUPPSh_71rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFURPD">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFURPD_100rdMag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUSten">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUSten_32rdMag" chance="1.00" />
 		</attachments>
 	</type>
@@ -3593,10 +3594,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3614,14 +3615,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3629,11 +3630,11 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_FGCR_Grip" chance="0.50" />
 			<item name="SNAFU_FGKAC_Grip" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3652,10 +3653,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3673,14 +3674,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3688,7 +3689,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3707,10 +3708,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_LVOAHG" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3728,14 +3729,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3743,7 +3744,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3762,10 +3763,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK13" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3783,14 +3784,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3798,7 +3799,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3817,10 +3818,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3838,14 +3839,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3853,7 +3854,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3872,10 +3873,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK9" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3893,14 +3894,14 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3908,7 +3909,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
 			<item name="SNAFU_PMAG556_OD" chance="0.09" />
@@ -3927,10 +3928,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -3948,7 +3949,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -3956,11 +3957,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -3968,7 +3969,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -3976,7 +3977,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -3989,10 +3990,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4010,7 +4011,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4018,11 +4019,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4030,7 +4031,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4038,7 +4039,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -4051,10 +4052,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK9" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4072,7 +4073,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4080,11 +4081,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4092,7 +4093,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4100,7 +4101,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -4113,10 +4114,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK13" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4134,7 +4135,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4142,11 +4143,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4154,7 +4155,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4162,7 +4163,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -4175,10 +4176,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4196,7 +4197,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4204,11 +4205,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4216,7 +4217,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4224,7 +4225,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_CMAG40300_Black" chance="0.15" />
 			<item name="SNAFU_CMAG40300_Tan" chance="0.15" />
 			<item name="SNAFU_CMAG60300_Black" chance="0.15" />
@@ -4237,10 +4238,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK9" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4258,7 +4259,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4266,11 +4267,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4278,7 +4279,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4286,7 +4287,7 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_AKM_30Rnd" chance="0.80" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.20" />
 		</attachments>
@@ -4295,10 +4296,10 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PEQ1_Laser" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4316,7 +4317,7 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_UBR_Stock" chance="0.15" />
 			<item name="SNAFU_MOE_Stock" chance="0.17" />
 			<item name="SNAFU_PRSGen3_Stock" chance="0.17" />
@@ -4324,11 +4325,11 @@
 			<item name="SNAFU_SBA_Stock" chance="0.17" />
 			<item name="SNAFU_MK47_Stock" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
 			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
 			<item name="SNAFU_GIGripColtA2" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_BK" chance="0.17" />
@@ -4336,7 +4337,7 @@
 			<item name="SNAFU_TACGripColtA2_OD" chance="0.17" />
 			<item name="SNAFU_TACGripColtA2_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AFG_02_Black" chance="0.15" />
 			<item name="SNAFU_AFG_02_Tan" chance="0.17" />
 			<item name="SNAFU_AFG_02_OD" chance="0.17" />
@@ -4344,13 +4345,13 @@
 			<item name="SNAFUScar_AFG_BK" chance="0.17" />
 			<item name="SNAFUScar_AFG_Tan" chance="0.17" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="Mag_AKM_30Rnd" chance="0.80" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.20" />
 		</attachments>
 	</type>
 	<type name="SNAFUSR3_Vikhr">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -4367,24 +4368,24 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3Vikhr_Supp" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3HG" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+				<attachments chance="0.85">
 			<item name="SNAFU_WSR3Stock" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+				<attachments chance="0.85">
 			<item name="SNAFU_SR3Grip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_SR3Vikhr_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M300BK">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -4401,19 +4402,19 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M300Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M300TAN">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -4430,19 +4431,19 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M300Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M300Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -4459,19 +4460,19 @@
 			<item name="SNAFU_AKTango6T_Wood" chance="0.06" />
 			<item name="SNAFU_AKTango6T_Snow" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M300Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M200Green">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4489,25 +4490,25 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200S_Green" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200B_BK" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M200_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFU_M200SNOW">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4525,25 +4526,25 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_50bmg_Suppressor_B" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_M" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_S" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_U" chance="0.20" />
 			<item name="SNAFU_50bmg_Suppressor_W" chance="0.20" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200S_Snow" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_M200B_BK" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="GCGN_M200_Mag" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SNAFUVSSK">
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
 			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
@@ -4561,10 +4562,11 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.06" />
 			<item name="SNAFU_Kobra" chance="0.06" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFU_VSSKbipod" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.85">
 			<item name="SNAFUVSSK_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
+</spawnabletypes>
